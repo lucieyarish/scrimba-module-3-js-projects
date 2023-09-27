@@ -1,2 +1,3 @@
-# scrimba-module3-js-projects
-Simple JavaScript projects developed while taking Scrimba's Frontend Developer Career Path courses.
+# Scrimba Module 3: JavaScript Projects
+
+Simple projects built with HTML, CSS and vanilla JavaScript developed while taking Scrimba's Frontend Developer Career Path courses.

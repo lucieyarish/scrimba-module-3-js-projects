@@ -1,0 +1,63 @@
+body {
+    background-image: url("station.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#main-counter {
+    width: 300px;
+    margin: 50px auto 0;
+    background: #7F00FF;
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+    background: linear-gradient(to right, #E100FF, #7F00FF);
+    border-radius: 10px;
+    padding: 30px;
+
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+#counter-btns {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #7F00FF;
+    font-weight: bold;
+    font-size: 50px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #fff;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#decrement-btn {
+    margin-right: 30px;
+}
+
+button:hover {
+    color: #E100FF;
+}
