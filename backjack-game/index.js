@@ -28,10 +28,14 @@ function getRandomCard() {
 
 function startGame() {
   isAlive = true;
+  hasBlackJack = false;
   let firstCard = getRandomCard();
   let secondCard = getRandomCard();
   cards = [firstCard, secondCard];
   sum = firstCard + secondCard;
+  if (sum === 21) {
+    hasBlackJack = true;
+  }
   renderGame();
 }
 

@@ -47,6 +47,6 @@ p {
     margin-bottom: 10px;
 }
 
-#start-btn:hover {
+.game-btn:hover {
     background-color: rgb(237, 172, 7);
 }
